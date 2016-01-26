@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1836778E1C5755EC00789D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836778D1C5755EC00789D20 /* main.m */; };
+		183677911C5755EC00789D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677901C5755EC00789D20 /* AppDelegate.m */; };
+		183677941C5755EC00789D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677931C5755EC00789D20 /* ViewController.m */; };
+		183677971C5755EC00789D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183677951C5755EC00789D20 /* Main.storyboard */; };
+		183677991C5755EC00789D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183677981C5755EC00789D20 /* Assets.xcassets */; };
+		1836779C1C5755EC00789D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836779A1C5755EC00789D20 /* LaunchScreen.storyboard */; };
+		183677A71C5755ED00789D20 /* DeveYangPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677A61C5755ED00789D20 /* DeveYangPhotoPickerTests.m */; };
+		183677B21C5755ED00789D20 /* DeveYangPhotoPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677B11C5755ED00789D20 /* DeveYangPhotoPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183677A31C5755ED00789D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183677811C5755EC00789D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183677881C5755EC00789D20;
+			remoteInfo = DeveYangPhotoPicker;
+		};
+		183677AE1C5755ED00789D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183677811C5755EC00789D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183677881C5755EC00789D20;
+			remoteInfo = DeveYangPhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183677891C5755EC00789D20 /* DeveYangPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveYangPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1836778D1C5755EC00789D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1836778F1C5755EC00789D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183677901C5755EC00789D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183677921C5755EC00789D20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183677931C5755EC00789D20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183677961C5755EC00789D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183677981C5755EC00789D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1836779B1C5755EC00789D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1836779D1C5755EC00789D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183677A21C5755ED00789D20 /* DeveYangPhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveYangPhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183677A61C5755ED00789D20 /* DeveYangPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveYangPhotoPickerTests.m; sourceTree = "<group>"; };
+		183677A81C5755ED00789D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183677AD1C5755ED00789D20 /* DeveYangPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveYangPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183677B11C5755ED00789D20 /* DeveYangPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveYangPhotoPickerUITests.m; sourceTree = "<group>"; };
+		183677B31C5755ED00789D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183677861C5755EC00789D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836779F1C5755ED00789D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183677AA1C5755ED00789D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183677801C5755EC00789D20 = {
+			isa = PBXGroup;
+			children = (
+				1836778B1C5755EC00789D20 /* DeveYangPhotoPicker */,
+				183677A51C5755ED00789D20 /* DeveYangPhotoPickerTests */,
+				183677B01C5755ED00789D20 /* DeveYangPhotoPickerUITests */,
+				1836778A1C5755EC00789D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1836778A1C5755EC00789D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183677891C5755EC00789D20 /* DeveYangPhotoPicker.app */,
+				183677A21C5755ED00789D20 /* DeveYangPhotoPickerTests.xctest */,
+				183677AD1C5755ED00789D20 /* DeveYangPhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1836778B1C5755EC00789D20 /* DeveYangPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1836778F1C5755EC00789D20 /* AppDelegate.h */,
+				183677901C5755EC00789D20 /* AppDelegate.m */,
+				183677921C5755EC00789D20 /* ViewController.h */,
+				183677931C5755EC00789D20 /* ViewController.m */,
+				183677951C5755EC00789D20 /* Main.storyboard */,
+				183677981C5755EC00789D20 /* Assets.xcassets */,
+				1836779A1C5755EC00789D20 /* LaunchScreen.storyboard */,
+				1836779D1C5755EC00789D20 /* Info.plist */,
+				1836778C1C5755EC00789D20 /* Supporting Files */,
+			);
+			path = DeveYangPhotoPicker;
+			sourceTree = "<group>";
+		};
+		1836778C1C5755EC00789D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1836778D1C5755EC00789D20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183677A51C5755ED00789D20 /* DeveYangPhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				183677A61C5755ED00789D20 /* DeveYangPhotoPickerTests.m */,
+				183677A81C5755ED00789D20 /* Info.plist */,
+			);
+			path = DeveYangPhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		183677B01C5755ED00789D20 /* DeveYangPhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183677B11C5755ED00789D20 /* DeveYangPhotoPickerUITests.m */,
+				183677B31C5755ED00789D20 /* Info.plist */,
+			);
+			path = DeveYangPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183677881C5755EC00789D20 /* DeveYangPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183677B61C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPicker" */;
+			buildPhases = (
+				183677851C5755EC00789D20 /* Sources */,
+				183677861C5755EC00789D20 /* Frameworks */,
+				183677871C5755EC00789D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeveYangPhotoPicker;
+			productName = DeveYangPhotoPicker;
+			productReference = 183677891C5755EC00789D20 /* DeveYangPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183677A11C5755ED00789D20 /* DeveYangPhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183677B91C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerTests" */;
+			buildPhases = (
+				1836779E1C5755ED00789D20 /* Sources */,
+				1836779F1C5755ED00789D20 /* Frameworks */,
+				183677A01C5755ED00789D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183677A41C5755ED00789D20 /* PBXTargetDependency */,
+			);
+			name = DeveYangPhotoPickerTests;
+			productName = DeveYangPhotoPickerTests;
+			productReference = 183677A21C5755ED00789D20 /* DeveYangPhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183677AC1C5755ED00789D20 /* DeveYangPhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183677BC1C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerUITests" */;
+			buildPhases = (
+				183677A91C5755ED00789D20 /* Sources */,
+				183677AA1C5755ED00789D20 /* Frameworks */,
+				183677AB1C5755ED00789D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183677AF1C5755ED00789D20 /* PBXTargetDependency */,
+			);
+			name = DeveYangPhotoPickerUITests;
+			productName = DeveYangPhotoPickerUITests;
+			productReference = 183677AD1C5755ED00789D20 /* DeveYangPhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183677811C5755EC00789D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DeveYang;
+				TargetAttributes = {
+					183677881C5755EC00789D20 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					183677A11C5755ED00789D20 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 183677881C5755EC00789D20;
+					};
+					183677AC1C5755ED00789D20 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 183677881C5755EC00789D20;
+					};
+				};
+			};
+			buildConfigurationList = 183677841C5755EC00789D20 /* Build configuration list for PBXProject "DeveYangPhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183677801C5755EC00789D20;
+			productRefGroup = 1836778A1C5755EC00789D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183677881C5755EC00789D20 /* DeveYangPhotoPicker */,
+				183677A11C5755ED00789D20 /* DeveYangPhotoPickerTests */,
+				183677AC1C5755ED00789D20 /* DeveYangPhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183677871C5755EC00789D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836779C1C5755EC00789D20 /* LaunchScreen.storyboard in Resources */,
+				183677991C5755EC00789D20 /* Assets.xcassets in Resources */,
+				183677971C5755EC00789D20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183677A01C5755ED00789D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183677AB1C5755ED00789D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183677851C5755EC00789D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183677941C5755EC00789D20 /* ViewController.m in Sources */,
+				183677911C5755EC00789D20 /* AppDelegate.m in Sources */,
+				1836778E1C5755EC00789D20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836779E1C5755ED00789D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183677A71C5755ED00789D20 /* DeveYangPhotoPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183677A91C5755ED00789D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183677B21C5755ED00789D20 /* DeveYangPhotoPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183677A41C5755ED00789D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183677881C5755EC00789D20 /* DeveYangPhotoPicker */;
+			targetProxy = 183677A31C5755ED00789D20 /* PBXContainerItemProxy */;
+		};
+		183677AF1C5755ED00789D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183677881C5755EC00789D20 /* DeveYangPhotoPicker */;
+			targetProxy = 183677AE1C5755ED00789D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183677951C5755EC00789D20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183677961C5755EC00789D20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1836779A1C5755EC00789D20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1836779B1C5755EC00789D20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183677B41C5755ED00789D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183677B51C5755ED00789D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183677B71C5755ED00789D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeveYangPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183677B81C5755ED00789D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeveYangPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		183677BA1C5755ED00789D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeveYangPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeveYangPhotoPicker.app/DeveYangPhotoPicker";
+			};
+			name = Debug;
+		};
+		183677BB1C5755ED00789D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeveYangPhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeveYangPhotoPicker.app/DeveYangPhotoPicker";
+			};
+			name = Release;
+		};
+		183677BD1C5755ED00789D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeveYangPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeveYangPhotoPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		183677BE1C5755ED00789D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeveYangPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeveYangPhotoPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183677841C5755EC00789D20 /* Build configuration list for PBXProject "DeveYangPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183677B41C5755ED00789D20 /* Debug */,
+				183677B51C5755ED00789D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183677B61C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183677B71C5755ED00789D20 /* Debug */,
+				183677B81C5755ED00789D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		183677B91C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183677BA1C5755ED00789D20 /* Debug */,
+				183677BB1C5755ED00789D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		183677BC1C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183677BD1C5755ED00789D20 /* Debug */,
+				183677BE1C5755ED00789D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183677811C5755EC00789D20 /* Project object */;
+}
