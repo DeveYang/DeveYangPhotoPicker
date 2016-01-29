@@ -11,7 +11,7 @@
 
 @interface PhotoPickerGroupCell : UITableViewCell
 /**
- *  赋值cell
+ *  声明一个相册列表模型
  */
 @property (nonatomic , strong) PhotoPickerGroup *group;
 @end

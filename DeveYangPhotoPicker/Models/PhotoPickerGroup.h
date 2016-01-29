@@ -4,7 +4,7 @@
 //
 //  Created by apple on 16/1/26.
 //  Copyright © 2016年 DeveYang. All rights reserved.
-//
+//  相册列表模型
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

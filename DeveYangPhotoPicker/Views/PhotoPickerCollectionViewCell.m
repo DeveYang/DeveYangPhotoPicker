@@ -7,11 +7,11 @@
 //
 
 #import "PhotoPickerCollectionViewCell.h"
-static NSString *const _cellIdentifier = @"PhotoPickerCollectionViewCell";
+static NSString *const cellIdentifier = @"PhotoPickerCollectionViewCell";
 @implementation PhotoPickerCollectionViewCell
 + (instancetype)cellWithCollectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    PhotoPickerCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:_cellIdentifier forIndexPath:indexPath];
+    PhotoPickerCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
     if ([[cell.contentView.subviews lastObject] isKindOfClass:[UIImageView class]]) {
         [[cell.contentView.subviews lastObject] removeFromSuperview];

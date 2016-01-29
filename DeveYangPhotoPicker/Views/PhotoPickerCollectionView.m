@@ -4,7 +4,7 @@
 //
 //  Created by apple on 16/1/27.
 //  Copyright © 2016年 DeveYang. All rights reserved.
-//
+//  显示相册内容的CollectionView
 
 #import "PhotoPickerCollectionView.h"
 #import "PhotoPickerFooterCRV.h"
@@ -15,6 +15,7 @@
 #import "PhotoPickerCommon.h"
 
 @interface PhotoPickerCollectionView()<UICollectionViewDataSource,UICollectionViewDelegate>
+//统计描述一共有多少照片(为collectionView添加尾部视图)
 @property (nonatomic , strong) PhotoPickerFooterCRV *footerView;
 // 判断是否是第一次加载
 @property (nonatomic , assign , getter=isFirstLoadding) BOOL firstLoadding;
@@ -22,11 +23,12 @@
 @implementation PhotoPickerCollectionView
 #pragma mark -getter
 - (NSMutableArray *)selectsIndexPath{
+//    如果没有照片索引值数组就创建
     if (!_selectsIndexPath) {
         _selectsIndexPath = [NSMutableArray array];
     }
-    
     if (_selectsIndexPath) {
+        //以数组的形式获取集合中的所有对象
         NSSet *set = [NSSet setWithArray:_selectsIndexPath];
         _selectsIndexPath = [NSMutableArray arrayWithArray:[set allObjects]];
     }
@@ -34,19 +36,22 @@
 }
 
 #pragma mark -setter
+//重新设置相册内容数据
 - (void)setDataArray:(NSArray *)dataArray{
     _dataArray = dataArray;
-    
-    // 需要记录选中的值的数据
+    // 判断是否需要记录选中的值的数据
     if (self.isRecoderSelectPicker){
         NSMutableArray *selectAssets = [NSMutableArray array];
+        /**
+         *  self.selectAssets是选中的图片数组
+         */
         for (PhotoAssets *asset in self.selectAssets) {
             for (PhotoAssets *asset2 in self.dataArray) {
                 
                 if (![asset isKindOfClass:[PhotoAssets class]] || ![asset2 isKindOfClass:[PhotoAssets class]]) {
                     continue;
                 }
-                
+//                判断选中图片的url和dataArray的url是否一样...如果一样的话就是被选中的图片
                 if ([asset.asset.defaultRepresentation.url isEqual:asset2.asset.defaultRepresentation.url]) {
                     [selectAssets addObject:asset2];
                     break;
@@ -58,10 +63,11 @@
     
     [self reloadData];
 }
-
+/**
+ *  初始化Collection
+ */
 - (instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout{
     if (self = [super initWithFrame:frame collectionViewLayout:layout]) {
-        
         self.backgroundColor = [UIColor clearColor];
         self.dataSource = self;
         self.delegate = self;
@@ -80,10 +86,7 @@
 }
 
 - (UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    
     PhotoPickerCollectionViewCell *cell = [PhotoPickerCollectionViewCell cellWithCollectionView:collectionView cellForItemAtIndexPath:indexPath];
-    
-    
     if(indexPath.item == 0 && self.topShowPhotoPicker){
         UIImageView *imageView = [[cell.contentView subviews] lastObject];
         // 判断真实类型
@@ -109,12 +112,11 @@
         }
         
         [cell.contentView addSubview:cellImgView];
-        
         cellImgView.maskViewFlag = ([self.selectsIndexPath containsObject:@(indexPath.row)]);
-        
         PhotoAssets *asset = self.dataArray[indexPath.item];
         cellImgView.isVideoType = asset.isVideoType;
         if ([asset isKindOfClass:[PhotoAssets class]]) {
+//            获得系统生成的缩略图
             cellImgView.image = asset.aspectRatioImage;
         }
     }

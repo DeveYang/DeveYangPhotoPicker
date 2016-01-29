@@ -14,6 +14,7 @@ typedef NS_ENUM(NSUInteger, PickerCollectionViewShowOrderStatus){
     PickerCollectionViewShowOrderStatusTimeAsc // 降序
 };
 @class PhotoPickerCollectionView;
+
 @protocol PhotoPickerCollectionViewDelegate <NSObject>
 // 选择相片就会调用
 - (void) pickerCollectionViewDidSelected:(PhotoPickerCollectionView *) pickerCollectionView deleteAsset:(PhotoAssets *)deleteAssets;

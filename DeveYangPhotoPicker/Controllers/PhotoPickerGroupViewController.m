@@ -40,7 +40,7 @@ static NSInteger const KPhotoShowMaxCount = 9;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"选择相册";
+    self.title = @"相册";
     
     // 设置按钮
     [self setupButtons];

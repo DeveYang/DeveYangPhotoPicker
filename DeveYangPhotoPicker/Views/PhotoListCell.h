@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotoListCell : UITableViewCell
+
 @property (weak, nonatomic) IBOutlet UIImageView *imageview1;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

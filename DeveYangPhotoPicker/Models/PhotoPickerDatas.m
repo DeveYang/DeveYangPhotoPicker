@@ -71,9 +71,9 @@
 
 - (void) getAllGroupAllPhotos:(BOOL)allPhotos withResource : (callBackBlock ) callBack{
     NSMutableArray *groups = [NSMutableArray array];
+//    获取相册的组
     ALAssetsLibraryGroupsEnumerationResultsBlock resultBlock = ^(ALAssetsGroup *group, BOOL *stop){
         if (group) {
-            
             // 包装一个模型来赋值
             PhotoPickerGroup *pickerGroup = [[PhotoPickerGroup alloc] init];
             if (allPhotos){
@@ -108,6 +108,7 @@
 - (void) getGroupPhotosWithGroup : (PhotoPickerGroup *) pickerGroup finished : (callBackBlock ) callBack{
     
     NSMutableArray *assets = [NSMutableArray array];
+//    获取相册每个组里面的照片
     ALAssetsGroupEnumerationResultsBlock result = ^(ALAsset *asset , NSUInteger index , BOOL *stop){
         if (asset) {
             [assets addObject:asset];
