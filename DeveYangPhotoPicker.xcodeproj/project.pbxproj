@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18111E541C59F34200DA46E7 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 18111E531C59F34200DA46E7 /* Camera.m */; };
+		18111E571C59F38000DA46E7 /* CameraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18111E561C59F38000DA46E7 /* CameraImageView.m */; };
+		18111E5A1C59F45E00DA46E7 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18111E591C59F45E00DA46E7 /* CameraView.m */; };
+		18111E5D1C59F5D000DA46E7 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18111E5C1C59F5D000DA46E7 /* CameraViewController.m */; };
 		1836778E1C5755EC00789D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836778D1C5755EC00789D20 /* main.m */; };
 		183677911C5755EC00789D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677901C5755EC00789D20 /* AppDelegate.m */; };
 		183677941C5755EC00789D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677931C5755EC00789D20 /* ViewController.m */; };
@@ -15,6 +19,22 @@
 		1836779C1C5755EC00789D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836779A1C5755EC00789D20 /* LaunchScreen.storyboard */; };
 		183677A71C5755ED00789D20 /* DeveYangPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677A61C5755ED00789D20 /* DeveYangPhotoPickerTests.m */; };
 		183677B21C5755ED00789D20 /* DeveYangPhotoPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677B11C5755ED00789D20 /* DeveYangPhotoPickerUITests.m */; };
+		183677CA1C575F8500789D20 /* PhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677C81C575F8500789D20 /* PhotoListCell.m */; };
+		183677CB1C575F8500789D20 /* PhotoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183677C91C575F8500789D20 /* PhotoListCell.xib */; };
+		183677D51C5773DD00789D20 /* PhotoPickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677D41C5773DD00789D20 /* PhotoPickerGroupCell.m */; };
+		183677D91C57745F00789D20 /* PhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 183677D81C57745F00789D20 /* PhotoPickerGroup.m */; };
+		183D45781C5863D000FC1FAF /* PhotoPickerDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45761C5863D000FC1FAF /* PhotoPickerDatas.m */; };
+		183D457B1C58649800FC1FAF /* PhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D457A1C58649800FC1FAF /* PhotoAssets.m */; };
+		183D457F1C5874F300FC1FAF /* PhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D457E1C5874F300FC1FAF /* PhotoPickerCollectionView.m */; };
+		183D45821C58764F00FC1FAF /* PhotoPickerFooterCRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45811C58764F00FC1FAF /* PhotoPickerFooterCRV.m */; };
+		183D45851C5876C700FC1FAF /* PhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45841C5876C700FC1FAF /* PhotoPickerCollectionViewCell.m */; };
+		183D45881C58778200FC1FAF /* UIView+viewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45871C58778200FC1FAF /* UIView+viewFrame.m */; };
+		183D45941C58778F00FC1FAF /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D458B1C58778F00FC1FAF /* MyNavigationController.m */; };
+		183D45951C58778F00FC1FAF /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D458D1C58778F00FC1FAF /* PhotoListViewController.m */; };
+		183D45961C58778F00FC1FAF /* PhotoPickerAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D458F1C58778F00FC1FAF /* PhotoPickerAssetsViewController.m */; };
+		183D45971C58778F00FC1FAF /* PhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45911C58778F00FC1FAF /* PhotoPickerGroupViewController.m */; };
+		183D45981C58778F00FC1FAF /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D45931C58778F00FC1FAF /* PhotoPickerViewController.m */; };
+		183D459B1C589C6000FC1FAF /* PhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D459A1C589C6000FC1FAF /* PhotoPickerImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18111E521C59F34200DA46E7 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		18111E531C59F34200DA46E7 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		18111E551C59F38000DA46E7 /* CameraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageView.h; sourceTree = "<group>"; };
+		18111E561C59F38000DA46E7 /* CameraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageView.m; sourceTree = "<group>"; };
+		18111E581C59F45E00DA46E7 /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		18111E591C59F45E00DA46E7 /* CameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
+		18111E5B1C59F5D000DA46E7 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		18111E5C1C59F5D000DA46E7 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		183677891C5755EC00789D20 /* DeveYangPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveYangPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836778D1C5755EC00789D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1836778F1C5755EC00789D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +79,39 @@
 		183677AD1C5755ED00789D20 /* DeveYangPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveYangPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183677B11C5755ED00789D20 /* DeveYangPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveYangPhotoPickerUITests.m; sourceTree = "<group>"; };
 		183677B31C5755ED00789D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183677C51C575E2800789D20 /* DeveYangPhotoPicker.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeveYangPhotoPicker.pch; sourceTree = "<group>"; };
+		183677C71C575F8500789D20 /* PhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListCell.h; sourceTree = "<group>"; };
+		183677C81C575F8500789D20 /* PhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListCell.m; sourceTree = "<group>"; };
+		183677C91C575F8500789D20 /* PhotoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoListCell.xib; sourceTree = "<group>"; };
+		183677D31C5773DD00789D20 /* PhotoPickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroupCell.h; sourceTree = "<group>"; };
+		183677D41C5773DD00789D20 /* PhotoPickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroupCell.m; sourceTree = "<group>"; };
+		183677D71C57745F00789D20 /* PhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroup.h; sourceTree = "<group>"; };
+		183677D81C57745F00789D20 /* PhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroup.m; sourceTree = "<group>"; };
+		183D45761C5863D000FC1FAF /* PhotoPickerDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerDatas.m; sourceTree = "<group>"; };
+		183D45771C5863D000FC1FAF /* PhotoPickerDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerDatas.h; sourceTree = "<group>"; };
+		183D45791C58649800FC1FAF /* PhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAssets.h; sourceTree = "<group>"; };
+		183D457A1C58649800FC1FAF /* PhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAssets.m; sourceTree = "<group>"; };
+		183D457C1C58746000FC1FAF /* PhotoPickerCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCommon.h; sourceTree = "<group>"; };
+		183D457D1C5874F300FC1FAF /* PhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		183D457E1C5874F300FC1FAF /* PhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		183D45801C58764F00FC1FAF /* PhotoPickerFooterCRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerFooterCRV.h; sourceTree = "<group>"; };
+		183D45811C58764F00FC1FAF /* PhotoPickerFooterCRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerFooterCRV.m; sourceTree = "<group>"; };
+		183D45831C5876C700FC1FAF /* PhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		183D45841C5876C700FC1FAF /* PhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		183D45861C58778200FC1FAF /* UIView+viewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+viewFrame.h"; sourceTree = "<group>"; };
+		183D45871C58778200FC1FAF /* UIView+viewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewFrame.m"; sourceTree = "<group>"; };
+		183D458A1C58778F00FC1FAF /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		183D458B1C58778F00FC1FAF /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		183D458C1C58778F00FC1FAF /* PhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
+		183D458D1C58778F00FC1FAF /* PhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
+		183D458E1C58778F00FC1FAF /* PhotoPickerAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerAssetsViewController.h; sourceTree = "<group>"; };
+		183D458F1C58778F00FC1FAF /* PhotoPickerAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerAssetsViewController.m; sourceTree = "<group>"; };
+		183D45901C58778F00FC1FAF /* PhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		183D45911C58778F00FC1FAF /* PhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		183D45921C58778F00FC1FAF /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
+		183D45931C58778F00FC1FAF /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
+		183D45991C589C6000FC1FAF /* PhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerImageView.h; sourceTree = "<group>"; };
+		183D459A1C589C6000FC1FAF /* PhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +139,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18111E4E1C59F31800DA46E7 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				18111E4F1C59F31800DA46E7 /* Controllers */,
+				18111E501C59F31800DA46E7 /* Models */,
+				18111E511C59F31800DA46E7 /* Views */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		18111E4F1C59F31800DA46E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18111E5B1C59F5D000DA46E7 /* CameraViewController.h */,
+				18111E5C1C59F5D000DA46E7 /* CameraViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18111E501C59F31800DA46E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18111E521C59F34200DA46E7 /* Camera.h */,
+				18111E531C59F34200DA46E7 /* Camera.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18111E511C59F31800DA46E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18111E551C59F38000DA46E7 /* CameraImageView.h */,
+				18111E561C59F38000DA46E7 /* CameraImageView.m */,
+				18111E581C59F45E00DA46E7 /* CameraView.h */,
+				18111E591C59F45E00DA46E7 /* CameraView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		183677801C5755EC00789D20 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +201,11 @@
 		1836778B1C5755EC00789D20 /* DeveYangPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				18111E4E1C59F31800DA46E7 /* Camera */,
+				183D45891C58778F00FC1FAF /* Controllers */,
+				183677D61C57742D00789D20 /* Models */,
+				183677CC1C57626900789D20 /* Category */,
+				183677C61C575F5A00789D20 /* Views */,
 				1836778F1C5755EC00789D20 /* AppDelegate.h */,
 				183677901C5755EC00789D20 /* AppDelegate.m */,
 				183677921C5755EC00789D20 /* ViewController.h */,
@@ -110,6 +215,7 @@
 				1836779A1C5755EC00789D20 /* LaunchScreen.storyboard */,
 				1836779D1C5755EC00789D20 /* Info.plist */,
 				1836778C1C5755EC00789D20 /* Supporting Files */,
+				183677C51C575E2800789D20 /* DeveYangPhotoPicker.pch */,
 			);
 			path = DeveYangPhotoPicker;
 			sourceTree = "<group>";
@@ -118,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				1836778D1C5755EC00789D20 /* main.m */,
+				183D457C1C58746000FC1FAF /* PhotoPickerCommon.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +245,65 @@
 				183677B31C5755ED00789D20 /* Info.plist */,
 			);
 			path = DeveYangPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		183677C61C575F5A00789D20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				183677C71C575F8500789D20 /* PhotoListCell.h */,
+				183677C81C575F8500789D20 /* PhotoListCell.m */,
+				183677C91C575F8500789D20 /* PhotoListCell.xib */,
+				183677D31C5773DD00789D20 /* PhotoPickerGroupCell.h */,
+				183677D41C5773DD00789D20 /* PhotoPickerGroupCell.m */,
+				183D457D1C5874F300FC1FAF /* PhotoPickerCollectionView.h */,
+				183D457E1C5874F300FC1FAF /* PhotoPickerCollectionView.m */,
+				183D45801C58764F00FC1FAF /* PhotoPickerFooterCRV.h */,
+				183D45811C58764F00FC1FAF /* PhotoPickerFooterCRV.m */,
+				183D45831C5876C700FC1FAF /* PhotoPickerCollectionViewCell.h */,
+				183D45841C5876C700FC1FAF /* PhotoPickerCollectionViewCell.m */,
+				183D45991C589C6000FC1FAF /* PhotoPickerImageView.h */,
+				183D459A1C589C6000FC1FAF /* PhotoPickerImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		183677CC1C57626900789D20 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				183D45861C58778200FC1FAF /* UIView+viewFrame.h */,
+				183D45871C58778200FC1FAF /* UIView+viewFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		183677D61C57742D00789D20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				183677D71C57745F00789D20 /* PhotoPickerGroup.h */,
+				183677D81C57745F00789D20 /* PhotoPickerGroup.m */,
+				183D45771C5863D000FC1FAF /* PhotoPickerDatas.h */,
+				183D45761C5863D000FC1FAF /* PhotoPickerDatas.m */,
+				183D45791C58649800FC1FAF /* PhotoAssets.h */,
+				183D457A1C58649800FC1FAF /* PhotoAssets.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		183D45891C58778F00FC1FAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				183D458A1C58778F00FC1FAF /* MyNavigationController.h */,
+				183D458B1C58778F00FC1FAF /* MyNavigationController.m */,
+				183D458C1C58778F00FC1FAF /* PhotoListViewController.h */,
+				183D458D1C58778F00FC1FAF /* PhotoListViewController.m */,
+				183D458E1C58778F00FC1FAF /* PhotoPickerAssetsViewController.h */,
+				183D458F1C58778F00FC1FAF /* PhotoPickerAssetsViewController.m */,
+				183D45901C58778F00FC1FAF /* PhotoPickerGroupViewController.h */,
+				183D45911C58778F00FC1FAF /* PhotoPickerGroupViewController.m */,
+				183D45921C58778F00FC1FAF /* PhotoPickerViewController.h */,
+				183D45931C58778F00FC1FAF /* PhotoPickerViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183677CB1C575F8500789D20 /* PhotoListCell.xib in Resources */,
 				1836779C1C5755EC00789D20 /* LaunchScreen.storyboard in Resources */,
 				183677991C5755EC00789D20 /* Assets.xcassets in Resources */,
 				183677971C5755EC00789D20 /* Main.storyboard in Resources */,
@@ -271,8 +438,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				183677941C5755EC00789D20 /* ViewController.m in Sources */,
+				183D457B1C58649800FC1FAF /* PhotoAssets.m in Sources */,
+				18111E5A1C59F45E00DA46E7 /* CameraView.m in Sources */,
+				183D45981C58778F00FC1FAF /* PhotoPickerViewController.m in Sources */,
+				183D45941C58778F00FC1FAF /* MyNavigationController.m in Sources */,
+				183677D51C5773DD00789D20 /* PhotoPickerGroupCell.m in Sources */,
+				183D45881C58778200FC1FAF /* UIView+viewFrame.m in Sources */,
+				183D45821C58764F00FC1FAF /* PhotoPickerFooterCRV.m in Sources */,
+				183D459B1C589C6000FC1FAF /* PhotoPickerImageView.m in Sources */,
+				183D45961C58778F00FC1FAF /* PhotoPickerAssetsViewController.m in Sources */,
+				183677CA1C575F8500789D20 /* PhotoListCell.m in Sources */,
+				183D457F1C5874F300FC1FAF /* PhotoPickerCollectionView.m in Sources */,
 				183677911C5755EC00789D20 /* AppDelegate.m in Sources */,
+				183677D91C57745F00789D20 /* PhotoPickerGroup.m in Sources */,
 				1836778E1C5755EC00789D20 /* main.m in Sources */,
+				183D45951C58778F00FC1FAF /* PhotoListViewController.m in Sources */,
+				18111E571C59F38000DA46E7 /* CameraImageView.m in Sources */,
+				18111E5D1C59F5D000DA46E7 /* CameraViewController.m in Sources */,
+				183D45851C5876C700FC1FAF /* PhotoPickerCollectionViewCell.m in Sources */,
+				18111E541C59F34200DA46E7 /* Camera.m in Sources */,
+				183D45971C58778F00FC1FAF /* PhotoPickerGroupViewController.m in Sources */,
+				183D45781C5863D000FC1FAF /* PhotoPickerDatas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +597,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SOROOT)DeveYangPhotoPicker/DeveYangPhotoPicker.pch";
 				INFOPLIST_FILE = DeveYangPhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +610,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SOROOT)DeveYangPhotoPicker/DeveYangPhotoPicker.pch";
 				INFOPLIST_FILE = DeveYangPhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeveYang.DeveYangPhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +686,7 @@
 				183677B81C5755ED00789D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183677B91C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +695,7 @@
 				183677BB1C5755ED00789D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183677BC1C5755ED00789D20 /* Build configuration list for PBXNativeTarget "DeveYangPhotoPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +704,7 @@
 				183677BE1C5755ED00789D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
